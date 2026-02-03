@@ -19,3 +19,11 @@ Ensure you have Python 3.9 or higher installed.
 Run the following command in your terminal to install the necessary data science libraries:
 ```bash
 pip install pandas matplotlib seaborn
+
+### 🚀 Execution Guide
+Follow these steps in order to process the data and generate the strategy report:
+
+Step 1: Data Preparation
+Align the datasets and generate core metrics:
+```bash
+python analysis.py
