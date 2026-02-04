@@ -1,0 +1,12 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Load datasets
+sentiment = pd.read_csv('bitcoin_sentiment.csv')
+trades = pd.read_csv('trader_data.csv')
+
+# Part A: Initial Documentation
+print(f"Sentiment Data: {sentiment.shape}")
+print(f"Trader Data: {trades.shape}")
+print(trades.isnull().sum()) # Check for missing values
